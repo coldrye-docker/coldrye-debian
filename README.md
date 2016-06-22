@@ -6,10 +6,23 @@ See https://hub.docker.com/r/coldrye/debian/ for more information.
 
 # Extra Packages
 
-- apt-utils
-- gnupg
-- curl
+## Editors
+
 - vim
+
+## Networking
+
+- curl
+- netcat
+- net-tools
+
+## Package Management
+
+- apt-utils
+
+## Encryption
+
+- gnupg
 
 
 # Image Releases
