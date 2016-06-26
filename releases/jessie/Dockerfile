@@ -10,7 +10,7 @@ RUN set -x \
     && apt-get -q -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" install \
         curl netcat net-tools \
         gnupg \
-        vim \
+        less vim \
     && apt-get clean \
     && rm -Rf /var/lib/apt/lists/* 2>/dev/null
 
