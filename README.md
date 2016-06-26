@@ -1,36 +1,49 @@
-
 # coldrye-debian
 
-See https://hub.docker.com/r/coldrye/debian/ for more information.
+[![coldrye/debian](http://dockeri.co/image/coldrye/debian)](https://hub.docker.com/r/coldrye/debian/)
 
 
-# Extra Packages
+## Description
 
-## Editors
+This packages Debian in various releases based on library/debian.
 
+Besides of a dist-upgrade, additional packages will be installed during the build process, in order to make
+work inside the container more comfortable.
+
+
+## Image Releases
+
+Images are released for the following debian releases.
+
+- jessie (from debian:jessie-backports)
+- testing (stretch)
+
+See https://hub.docker.com/r/coldrye/debian/tags/ for a complete list.
+
+
+## Additional Packages
+
+### Editors
+
+- less
 - vim
 
-## Networking
+### Networking
 
 - curl
 - netcat
 - net-tools
 
-## Package Management
+### Package Management
 
 - apt-utils
 
-## Encryption
+### Encryption
 
 - gnupg
 
 
-# Image Releases
+## TODO
 
-Images are released for the following debian releases.
-
-- jessie
-- testing (stretch)
-
-See https://hub.docker.com/r/coldrye/debian/tags/ for a complete list.
+- key bindings in vim do not always work, most notably PageDwn/PageUp, Home, End and other such keys
 
