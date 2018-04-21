@@ -15,10 +15,15 @@ work inside the container more comfortable.
 
 Images are released for the following debian releases.
 
-- jessie (from debian:jessie-backports)
-- testing (stretch)
+- stretch (from debian:stretch-backports)
+- testing (buster)
 
 See https://hub.docker.com/r/coldrye/debian/tags/ for a complete list.
+
+
+## Outdated Releases
+
+- jessie (from debian:jessie-backports)
 
 
 ## Additional Packages
