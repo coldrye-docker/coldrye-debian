@@ -2,7 +2,7 @@
 
 provider = coldrye
 os = debian
-release = testing
+release = stretch
 tag := $(shell date +"%Y%m%d%H%M%S")
 existing_tag := $(shell cat tag)
 image = $(os)
